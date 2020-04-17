@@ -152,6 +152,14 @@
 .letter-7 {
   width: 114px;
 }
+
+.letter-8 {
+  width: 115px;
+}
+
+.letter-9 {
+  width: 115px;
+}
 /* Letters */
 
 .a__stem {
@@ -1508,11 +1516,123 @@
 
 .seven__middle {
   position: absolute;
-  left: 50px;
+  left: 54px;
   width: 30px;
-  top: 22px;
-  height: 157px;
+  top: 21px;
+  height: 156px;
   background-color: black;
   border-radius: 25%;
-  transform: rotate(33deg);
+  transform: rotate(29deg);
+}
+
+.eight__top-rt {
+  position: absolute;
+  top: 5px;
+  left: 85px;
+  width: 30px;
+  height: 70px;
+  background-color: black;
+  border-radius: 30%;
+}
+
+.eight__top-bar {
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  width: 99px;
+  height: 30px;
+  background-color: black;
+  border-radius: 23%;
+}
+
+.eight__top-left {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 30px;
+  height: 70px;
+  background-color: black;
+  border-radius: 30%;
+}
+
+.eight__middle-bar {
+  position: absolute;
+  top: 60px;
+  left: 5px;
+  width: 104px;
+  height: 30px;
+  background-color: black;
+  border-radius: 25%;
+  border-top-right-radius: 23%;
+}
+
+.eight__btm-right {
+  position: absolute;
+  top: 65px;
+  left: 85px;
+  width: 30px;
+  height: 99px;
+  background-color: black;
+  border-radius: 30%;
+}
+
+.eight__btm-bar {
+  position: absolute;
+  top: 140px;
+  left: 8px;
+  width: 99px;
+  height: 30px;
+  background-color: black;
+  border-radius: 23%;
+}
+
+.eight__btm-end {
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  width: 30px;
+  height: 99px;
+  background-color: black;
+  border-radius: 30%;
+}
+
+.nine__top-bar {
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  width: 104px;
+  height: 30px;
+  background-color: black;
+  border-radius: 25%;
+  border-top-right-radius: 23%;
+}
+
+.nine__right {
+  position: absolute;
+  top: 5px;
+  left: 85px;
+  width: 30px;
+  height: 165px;
+  background-color: black;
+  border-radius: 30%;
+}
+
+.nine__btm-bar {
+  position: absolute;
+  top: 65px;
+  left: 8px;
+  width: 99px;
+  height: 30px;
+  background-color: black;
+  border-radius: 23%;
+}
+
+.nine__left {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 30px;
+  height: 85px;
+  background-color: black;
+  border-radius: 30%;
 }
