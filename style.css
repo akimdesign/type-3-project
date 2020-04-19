@@ -6,7 +6,7 @@
   /*resize as you see fit */
   display: inline-block;
   /* this makes block level elements act like letters (so they sit next to eachother) */
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   /*feel free to remove or hide this rule */
   position: relative;
   /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
@@ -17,7 +17,7 @@
 }
 
 .letter-b {
-  width: 120px;
+  width: 115px;
 }
 
 .letter-c {
@@ -25,7 +25,7 @@
 }
 
 .letter-d {
-  width: 120px;
+  width: 115px;
 }
 
 .letter-e {
@@ -37,7 +37,8 @@
 }
 
 .letter-g {
-  width: 110px;
+  width: 106px;
+  top: 45px;
 }
 
 .letter-h {
@@ -73,13 +74,12 @@
 }
 
 .letter-p {
-  width: 120px;
-  /* top: 51px; */
+  width: 116px;
+  top: 45px;
 }
 
 .letter-q {
-  width: 144px;
-  transform: scaleX(-1);
+  width: 140px;
 }
 
 .letter-r {
@@ -113,6 +113,7 @@
 
 .letter-y {
   width: 120px;
+  top: 45px;
 }
 
 .letter-z {
@@ -202,7 +203,7 @@
 .b__bowl {
   position: absolute;
   top: 50px;
-  left: 20px;
+  left: 14px;
   width: 100px;
   height: 120px;
   background-color: black;
@@ -212,7 +213,7 @@
 .b__counter {
   position: absolute;
   top: 74px;
-  left: 39px;
+  left: 33px;
   width: 55px;
   height: 70px;
   background-color: white;
@@ -281,7 +282,8 @@
 .d__stem {
   position: absolute;
   width: 30px;
-  right: 0px;
+  left: 84px;
+  /* right: 0px; */
   height: 170px;
   background-color: black;
   border-radius: 25%;
@@ -432,7 +434,7 @@
 .g__stem {
   position: absolute;
   width: 30px;
-  left: 80px;
+  left: 75px;
   height: 170px;
   background-color: black;
   border-radius: 25%;
@@ -440,7 +442,7 @@
 
 .g__bowl {
   position: absolute;
-  top: 0px;
+  top: 5px;
   left: 0px;
   width: 90px;
   height: 110px;
@@ -450,7 +452,7 @@
 
 .g__counter {
   position: absolute;
-  top: 23px;
+  top: 27px;
   left: 24px;
   width: 50px;
   height: 65px;
@@ -459,7 +461,7 @@
 }
 
 .g__end-btm {
-  left: 8px;
+  left: 3px;
   position: absolute;
   bottom: 0px;
   width: 25px;
@@ -471,7 +473,7 @@
 .g__btm-bar {
   position: absolute;
   top: 145px;
-  left: 17px;
+  left: 12px;
   width: 88px;
   height: 25px;
   background-color: black;
@@ -625,8 +627,8 @@
 .m__stem {
   position: absolute;
   width: 30px;
-  top: 40px;
-  height: 130px;
+  top: 45px;
+  height: 125px;
   background-color: black;
   border-radius: 25%;
 }
@@ -676,8 +678,8 @@
 .n__stem {
   position: absolute;
   width: 30px;
-  top: 40px;
-  height: 130px;
+  top: 45px;
+  height: 125px;
   background-color: black;
   border-radius: 25%;
 }
@@ -732,8 +734,8 @@
 
 .p__bowl {
   position: absolute;
-  top: 0px;
-  left: 20px;
+  top: 5px;
+  left: 15px;
   width: 100px;
   height: 120px;
   background-color: black;
@@ -742,8 +744,8 @@
 
 .p__counter {
   position: absolute;
-  top: 25px;
-  left: 40px;
+  top: 30px;
+  left: 33px;
   width: 55px;
   height: 70px;
   background-color: white;
@@ -752,7 +754,7 @@
 
 .q__stem {
   position: absolute;
-  left: 25px;
+  left: 84px;
   width: 30px;
   height: 170px;
   background-color: black;
@@ -761,8 +763,8 @@
 
 .q__bowl {
   position: absolute;
-  top: 0px;
-  left: 45px;
+  top: 5px;
+  left: 0px;
   width: 100px;
   height: 120px;
   background-color: black;
@@ -771,8 +773,8 @@
 
 .q__counter {
   position: absolute;
-  top: 25px;
-  left: 65px;
+  top: 30px;
+  left: 26px;
   width: 55px;
   height: 70px;
   background-color: white;
@@ -780,7 +782,7 @@
 }
 
 .q__tail {
-  left: 12px;
+  left: 100px;
   position: absolute;
   bottom: -13px;
   width: 25px;
@@ -822,7 +824,7 @@
 
 .s__top-end {
   position: absolute;
-  top: 45px;
+  top: 51px;
   left: 85px;
   width: 30px;
   height: 40px;
@@ -832,10 +834,10 @@
 
 .s__top-bar {
   position: absolute;
-  top: 40px;
+  top: 46px;
   left: 0px;
   width: 108px;
-  height: 30px;
+  height: 29px;
   background-color: black;
   border-radius: 25%;
   border-top-right-radius: 23%;
@@ -843,20 +845,20 @@
 
 .s__top-left {
   position: absolute;
-  top: 42px;
+  top: 50px;
   left: 0px;
   width: 30px;
-  height: 75px;
+  height: 70px;
   background-color: black;
   border-radius: 30%;
 }
 
 .s__middle-bar {
   position: absolute;
-  top: 89px;
+  top: 92px;
   left: 0px;
   width: 108px;
-  height: 30px;
+  height: 29px;
   background-color: black;
   border-radius: 25%;
   border-top-right-radius: 23%;
@@ -864,20 +866,20 @@
 
 .s__btm-right {
   position: absolute;
-  top: 95px;
+  top: 98px;
   left: 85px;
   width: 30px;
-  height: 75px;
+  height: 65px;
   background-color: black;
   border-radius: 30%;
 }
 
 .s__btm-bar {
   position: absolute;
-  top: 140px;
+  top: 141px;
   left: 0px;
   width: 108px;
-  height: 30px;
+  height: 29px;
   background-color: black;
   border-radius: 25%;
   border-top-right-radius: 23%;
@@ -1045,7 +1047,7 @@
   left: 59px;
   width: 30px;
   top: -6px;
-  height: 182px;
+  height: 180px;
   background-color: black;
   border-radius: 25%;
   transform: rotate(25deg);
@@ -1436,7 +1438,7 @@
   top: 9px;
   left: 0px;
   width: 30px;
-  height: 162px;
+  height: 160px;
   background-color: black;
   border-bottom-left-radius: 25%;
 }
@@ -1635,4 +1637,91 @@
   height: 85px;
   background-color: black;
   border-radius: 30%;
+}
+
+/* Poster Text  */
+/* body {
+  background: rgb(134, 149, 143);
+  background: linear-gradient(
+    0deg,
+    rgba(134, 149, 143, 1) 0%,
+    rgba(191, 204, 186, 1) 50%,
+    rgba(219, 222, 224, 1) 100%
+  );
+} */
+
+.background {
+  /* background-color: aqua; */
+  width: 98vw;
+  height: 98vh;
+  background: rgb(134, 149, 143);
+  background: linear-gradient(
+    0deg,
+    rgba(134, 149, 143, 1) 0%,
+    rgba(191, 204, 186, 1) 50%,
+    rgba(219, 222, 224, 1) 100%
+  );
+}
+
+.save {
+  position: fixed;
+  top: 100px;
+  left: 25px;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}
+
+.the {
+  position: fixed;
+  top: 100px;
+  left: 300px;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}
+
+.bees {
+  position: fixed;
+  top: 100px;
+  left: 500px;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}
+
+.dont {
+  position: fixed;
+  top: 100px;
+  left: 750px;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}
+
+.be {
+  position: fixed;
+  top: 100px;
+  left: 950px;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}
+
+.let-a {
+  position: fixed;
+  top: 100px;
+  left: 1100px;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}
+
+.hater {
+  position: fixed;
+  top: 200px;
+  left: 1100px;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}
+
+.line {
+  position: fixed;
+  border: 1px dashed black;
+  top: 300px;
+  width: 300px;
 }
