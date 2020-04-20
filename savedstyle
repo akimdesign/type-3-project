@@ -1837,8 +1837,8 @@
 
 .round-body {
   position: absolute;
-  left: 33px;
-  top: 45px;
+  left: 500px;
+  top: 400px;
   background: rgb(243, 211, 74);
   background: linear-gradient(
     90deg,
@@ -1859,8 +1859,8 @@
 
 .head {
   position: absolute;
-  left: 95px;
-  top: 40px;
+  left: 563px;
+  top: 395px;
   background: rgb(243, 211, 74);
   width: 38px;
   height: 38px;
@@ -1869,8 +1869,8 @@
 
 .eye {
   position: absolute;
-  left: 112px;
-  top: 51px;
+  left: 580px;
+  top: 402px;
   background: black;
   width: 10px;
   height: 10px;
@@ -1879,8 +1879,8 @@
 
 .stinger {
   position: absolute;
-  top: 62px;
-  left: 6px;
+  top: 416px;
+  left: 476px;
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
@@ -1890,8 +1890,8 @@
 
 .wing1 {
   position: absolute;
-  top: 0px;
-  left: 37px;
+  top: 359px;
+  left: 507px;
   width: 30px;
   height: 50px;
   background-color: #dbdee0;
@@ -1901,8 +1901,8 @@
 
 .wing2 {
   position: absolute;
-  top: 0px;
-  left: 60px;
+  top: 359px;
+  left: 527px;
   width: 30px;
   height: 50px;
   background-color: #dbdee0;
@@ -1912,8 +1912,8 @@
 
 .antenna1 {
   position: absolute;
-  top: 27px;
-  left: 120px;
+  top: 381px;
+  left: 588px;
   background-color: black;
   width: 2px;
   height: 15px;
@@ -1922,70 +1922,33 @@
 
 .antenna2 {
   position: absolute;
-  top: 27px;
-  left: 112px;
+  top: 381px;
+  left: 581px;
   background-color: black;
   width: 2px;
   height: 15px;
   transform: rotate(-20deg);
 }
-
+/* 
 .bee-1 {
   position: fixed;
   top: 200px;
-  left: 600px;
+  left: 2600px;
   transform: rotate(20deg) scaleX(-1);
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-
-  to {
-    margin-left: 10%;
-    width: 50%;
-  }
-}
-
+} */
+/* 
 .bee-2 {
   position: fixed;
   top: 180px;
   transform: rotate(5deg);
-  animation: slide-bck-left 3s cubic-bezier(0.47, 0, 0.745, 0.715) infinite
-    alternate both;
-}
-@keyframes slide-bck-left {
-  0% {
-    transform: translateZ(0) translateX(0);
-    transform: translateZ(0) translateX(0);
-  }
-  100% {
-    transform: translateZ(-400px) translateX(-200px);
-    transform: translateZ(-400px) translateX(-200px);
-  }
 }
 
 .bee-3 {
   position: fixed;
-  top: 125px;
-  left: 710px;
-  transform: rotate(-15deg);
-  animation: 3s rotateBee linear infinite;
-}
-
-@keyframes rotateBee {
-  from {
-    transform: scale(0.5) rotate(0deg) translate(85px);
-  }
-  to {
-    transform: scale(0.5) rotate(-360deg) translate(85px);
-  }
+  top: 20px;
+  left: 500px;
+  transform: rotate(-15deg) scale(0.5);
+  transform-origin: 0, 0;
 }
 
 .bee-4 {
@@ -2000,7 +1963,7 @@
   top: 720px;
   left: 500px;
   transform: rotate(15deg) scale(0.5);
-}
+} */
 
 .petal-1 {
   position: absolute;
