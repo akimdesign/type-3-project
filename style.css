@@ -1955,20 +1955,9 @@
 
 .bee-2 {
   position: fixed;
-  top: 180px;
+  top: 450px;
+  left: 400px;
   transform: rotate(5deg);
-  animation: slide-bck-left 3s cubic-bezier(0.47, 0, 0.745, 0.715) infinite
-    alternate both;
-}
-@keyframes slide-bck-left {
-  0% {
-    transform: translateZ(0) translateX(0);
-    transform: translateZ(0) translateX(0);
-  }
-  100% {
-    transform: translateZ(-400px) translateX(-200px);
-    transform: translateZ(-400px) translateX(-200px);
-  }
 }
 
 .bee-3 {
@@ -1990,15 +1979,15 @@
 
 .bee-4 {
   position: fixed;
-  top: 490px;
-  left: 1680px;
+  top: 779px;
+  left: 1477px;
   transform: scaleX(-1) scale(0.6) rotate(20deg);
 }
 
 .bee-5 {
   position: fixed;
-  top: 720px;
-  left: 500px;
+  top: 950px;
+  left: 870px;
   transform: rotate(15deg) scale(0.5);
 }
 
