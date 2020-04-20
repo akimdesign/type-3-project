@@ -2283,13 +2283,3 @@
     opacity: 100%;
   }
 }
-
-.word_block2 {
-  position: fixed;
-  top: 640px;
-  left: 20px;
-  width: 210px;
-  height: 125px;
-  background-color: #86958f;
-  animation: 0.5s blinkWord infinite alternate;
-}
