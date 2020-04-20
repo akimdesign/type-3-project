@@ -1704,32 +1704,32 @@
 .save {
   position: fixed;
   top: 200px;
-  left: 600px;
-  transform: scale(0.8);
+  left: 450px;
+  transform: scale(0.6);
   transform-origin: 0 0;
 }
 
 .the {
   position: fixed;
   top: 200px;
-  left: 1060px;
-  transform: scale(0.8);
+  left: 800px;
+  transform: scale(0.6);
   transform-origin: 0 0;
 }
 
 .bees {
   position: fixed;
   top: 200px;
-  left: 1400px;
-  transform: scale(0.8);
+  left: 1050px;
+  transform: scale(0.6);
   transform-origin: 0 0;
 }
 
 .don {
   position: fixed;
-  top: 110px;
+  top: 100px;
   left: 30px;
-  transform: scale(0.4);
+  transform: scale(0.3);
   transform-origin: 0 0;
 }
 
@@ -1739,64 +1739,64 @@
   background-color: #ead0c5;
   border-radius: 30%;
   position: fixed;
-  top: 97px;
-  left: 165px;
-  transform: scale(0.45);
+  top: 90px;
+  left: 130px;
+  transform: scale(0.35);
 }
 
 .let-t {
   position: fixed;
-  top: 110px;
-  left: 193px;
-  transform: scale(0.4);
+  top: 100px;
+  left: 155px;
+  transform: scale(0.3);
   transform-origin: 0 0;
 }
 
 .be {
   position: fixed;
-  top: 250px;
+  top: 200px;
   left: 30px;
-  transform: scale(0.4);
+  transform: scale(0.3);
   transform-origin: 0 0;
 }
 
 .let-a {
   position: fixed;
-  top: 380px;
+  top: 300px;
   left: 30px;
-  transform: scale(0.4);
+  transform: scale(0.3);
   transform-origin: 0 0;
 }
 
 .hater {
   position: fixed;
-  top: 520px;
+  top: 400px;
   left: 30px;
-  transform: scale(0.4);
+  transform: scale(0.3);
   transform-origin: 0 0;
 }
 
 .save2 {
   position: fixed;
-  top: 650px;
+  top: 500px;
   left: 30px;
-  transform: scale(0.4);
+  transform: scale(0.3);
   transform-origin: 0 0;
 }
 
 .the2 {
   position: fixed;
-  top: 790px;
+  top: 600px;
   left: 30px;
-  transform: scale(0.4);
+  transform: scale(0.3);
   transform-origin: 0 0;
 }
 
 .pollinator {
   position: fixed;
-  top: 920px;
+  top: 700px;
   left: 30px;
-  transform: scale(0.4);
+  transform: scale(0.3);
   transform-origin: 0 0;
 }
 
@@ -1965,7 +1965,7 @@
   position: fixed;
   top: 200px;
   left: 600px;
-  transform: rotate(20deg) scaleX(-1);
+  transform: rotate(20deg) scaleX(-1) scale(0.7);
   animation: 3.5s slidein infinite alternate;
 }
 
@@ -1983,9 +1983,9 @@
 
 .bee-2 {
   position: fixed;
-  top: 450px;
+  top: 350px;
   left: 400px;
-  transform: rotate(5deg);
+  transform: rotate(5deg) scale(0.8);
   animation: 2s moveBee infinite alternate;
 }
 
@@ -1993,34 +1993,36 @@
   from {
     margin-bottom: 100%;
     width: 100%;
+    margin-left: -20%;
   }
   to {
     margin-bottom: 50%;
     width: 50%;
+    margin-left: -10%;
   }
 }
 
 .bee-3 {
   position: fixed;
-  top: 125px;
-  left: 710px;
+  top: 155px;
+  left: 570px;
   transform: rotate(-15deg);
   animation: 3s rotateBee linear infinite;
 }
 
 @keyframes rotateBee {
   from {
-    transform: scale(0.5) rotate(0deg) translate(85px);
+    transform: scale(0.3) rotate(0deg) translate(85px);
   }
   to {
-    transform: scale(0.5) rotate(-360deg) translate(85px);
+    transform: scale(0.3) rotate(-360deg) translate(85px);
   }
 }
 
 .bee-4 {
   position: fixed;
-  top: 779px;
-  left: 1477px;
+  top: 609px;
+  left: 1160px;
   transform: scaleX(-1) scale(0.6) rotate(20deg);
   animation: 2s flyin2 infinite alternate;
 }
@@ -2030,14 +2032,14 @@
     margin-left: 0%;
   }
   to {
-    margin-left: -20%;
+    margin-left: -12%;
   }
 }
 
 .bee-5 {
   position: fixed;
-  top: 950px;
-  left: 870px;
+  top: 710px;
+  left: 570px;
   transform: rotate(15deg) scale(0.5);
   animation: 3s flyin infinite alternate;
 }
@@ -2055,14 +2057,15 @@
 
 .petal-1 {
   position: absolute;
-  top: 1020px;
-  left: 1000px;
+  top: 0px;
+  left: 25px;
   background-color: #d9b0a4;
   width: 30px;
   height: 50px;
   border-radius: 50%;
   animation: 1s petalColor infinite alternate;
 }
+
 @keyframes petalColor {
   from {
     background-color: #d9b0a4;
@@ -2081,8 +2084,8 @@
 }
 .petal-2 {
   position: absolute;
-  top: 1032px;
-  left: 1022px;
+  top: 10px;
+  left: 45px;
   background-color: #ead0c5;
   width: 30px;
   height: 50px;
@@ -2093,8 +2096,8 @@
 
 .petal-3 {
   position: absolute;
-  top: 1050px;
-  left: 1023px;
+  top: 28px;
+  left: 50px;
   background-color: #d9b0a4;
   width: 30px;
   height: 50px;
@@ -2105,8 +2108,8 @@
 
 .petal-4 {
   position: absolute;
-  top: 1064px;
-  left: 1014px;
+  top: 45px;
+  left: 45px;
   background-color: #ead0c5;
   width: 30px;
   height: 50px;
@@ -2117,8 +2120,8 @@
 
 .petal-5 {
   position: absolute;
-  top: 1068px;
-  left: 1000px;
+  top: 50px;
+  left: 25px;
   background-color: #d9b0a4;
   width: 30px;
   height: 50px;
@@ -2128,8 +2131,8 @@
 
 .petal-6 {
   position: absolute;
-  top: 1064px;
-  left: 981px;
+  top: 45px;
+  left: 5px;
   background-color: #ead0c5;
   width: 30px;
   height: 50px;
@@ -2140,8 +2143,8 @@
 
 .petal-7 {
   position: absolute;
-  top: 1050px;
-  left: 979px;
+  top: 28px;
+  left: 0px;
   background-color: #d9b0a4;
   width: 30px;
   height: 50px;
@@ -2152,8 +2155,8 @@
 
 .petal-8 {
   position: absolute;
-  top: 1032px;
-  left: 980px;
+  top: 10px;
+  left: 5px;
   background-color: #ead0c5;
   width: 30px;
   height: 50px;
@@ -2164,8 +2167,8 @@
 
 .flower-centre {
   position: absolute;
-  top: 1060px;
-  left: 1003px;
+  top: 40px;
+  left: 27px;
   background-color: #fff7ae;
   border-radius: 50%;
   width: 25px;
@@ -2174,46 +2177,48 @@
 
 .flower-1 {
   position: fixed;
-  top: -40px;
+  top: 740px;
+  left: 680px;
+  transform: scale(0.8);
 }
 
 .flower-2 {
   position: fixed;
-  top: 500px;
-  left: 486px;
+  top: 790px;
+  left: 760px;
   transform: rotate(5deg) scale(0.5);
   transform-origin: 0, 0;
 }
 
 .flower-3 {
-  top: 132px;
-  left: 687px;
+  top: 790px;
+  left: 620px;
   position: fixed;
   transform: rotate(20deg) scale(0.7);
 }
 
 .flower-4 {
   position: fixed;
-  top: 400px;
-  left: 346px;
+  top: 830px;
+  left: 1100px;
   transform: rotate(15deg) scale(0.5);
 }
 
 .flower-5 {
   position: fixed;
-  top: 250px;
-  left: 500px;
-  transform: scale(0.8);
+  top: 760px;
+  left: 1280px;
+  transform: scale(0.4);
 }
 
 .bee__path-1 {
   position: fixed;
-  top: 409px;
-  left: 1420px;
+  top: 329px;
+  left: 1120px;
   background-color: #86958f;
   border: 3px dashed #6a6361;
-  width: 300px;
-  height: 400px;
+  width: 200px;
+  height: 300px;
   border-radius: 50%;
   transform: rotate(11deg);
   animation: 2s disappear infinite alternate;
@@ -2229,14 +2234,14 @@
 }
 
 .path__blocker-1 {
-  width: 310px;
-  height: 430px;
+  width: 210px;
+  height: 330px;
   border-radius: 50%;
   transform: rotate(10deg);
   background-color: #86958f;
   position: fixed;
-  top: 388px;
-  left: 1396px;
+  top: 308px;
+  left: 1096px;
 }
 
 .hashtag {
@@ -2246,28 +2251,28 @@
 }
 .beehappy {
   position: fixed;
-  top: 825px;
-  right: -295px;
-  transform: scale(0.3);
+  top: 545px;
+  right: -350px;
+  transform: scale(0.2);
 }
 
 .biodiversity {
   position: fixed;
-  top: 915px;
-  right: -375px;
-  transform: scale(0.3);
+  top: 620px;
+  right: -440px;
+  transform: scale(0.2);
 }
 
 .dontworry {
   position: fixed;
-  top: 740px;
-  right: -370px;
-  transform: scale(0.3);
+  top: 470px;
+  right: -430px;
+  transform: scale(0.2);
 }
 
 .word_block {
   position: fixed;
-  top: 80px;
+  top: 100px;
   left: 20px;
   width: 210px;
   height: 125px;
